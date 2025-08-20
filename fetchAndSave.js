@@ -11,7 +11,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 const TOKEN_URL = 'https://identity.crea.ca/connect/token';
 const CLIENT_ID = 'CTV6OHOBvqo3TVVLvu4FdgAu';
 const CLIENT_SECRET = 'rFmp8o58WP5uxTD0NDUsvHov';
-const MASTER_LIST_URL = 'https://ddfapi.realtor.ca/odata/v1/Replication_Master_Property';
+const MASTER_LIST_URL = 'https://ddfapi.realtor.ca/odata/v1/Property';
 const OFFICE_URL = 'https://ddfapi.realtor.ca/odata/v1/Office';
 
 // --- 1️⃣ Fetch DDF access token ---
